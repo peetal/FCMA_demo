@@ -173,5 +173,6 @@ if __name__ == '__main__':
         )
         
         # Append this accuracy on to a score sheet
+        file_name = top_n_mask_file.split('/')[-1]
         with open(output_file, 'a') as fp:
-            fp.write(top_n_mask_file + ', ' + str(intrinsic_vs_extrinsic[int(is_extrinsic)]) + ': ' + str(num_correct / epochs_per_subj) + '\n')    
+            fp.write(file_name + ': ' + str(num_correct / epochs_per_subj) + '\n')    
