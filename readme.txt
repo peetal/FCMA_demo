@@ -1,4 +1,4 @@
-1. Cherry_picked_brain contains all data used to simulate the fMRI data, including the python script. 
+1. sim_info contains all data used to simulate the fMRI data, including the python script. 
 
 2. FCMA_result contains all FCMA result for feature selection and classification.
 
