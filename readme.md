@@ -1,3 +1,9 @@
+### FCMA DEMO 
+
+The notebook demonstrates how to implement full correlation matrix analysis on a simulated data set. The notebook is being included in the brainiak-aperture repo as part of the manuscript titled "BrainIAK: The Brain Imaging Analysis Kit" which is currently under reviewed. 
+
+### Contents
+
 1. FCMA_result contains all FCMA result for feature selection and classification.
 
 2. FCMA_script contains FCMA python scripts for the notebook to run using subprocess.
